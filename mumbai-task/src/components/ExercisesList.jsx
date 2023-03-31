@@ -4,13 +4,13 @@ import axios from "axios";
 
 const Exercise = props => (
     <tr>
-        <td>{props.exercise.username}</td>
+        {/* <td>{props.exercise.username}</td> */}
         <td>{props.exercise.name}</td>
         <td>{props.exercise.email}</td>
         <td>{props.exercise.mobile}</td>
         <td>{props.exercise.department}</td>
         <td>{props.exercise.designation}</td>
-        <td>{props.exercise.description}</td>
+        {/* <td>{props.exercise.description}</td> */}
         {/* <td>{props.exercise.duration}</td> */}
         <td>{props.exercise.date.substring(0,10)}</td>
         <td>
@@ -57,13 +57,13 @@ class ExercisesList extends Component {
                 <table className="table">
                     <thead className="thead-light">
                         <tr>
-                            <th>Username</th>
+                            {/* <th>Username</th> */}
                             <th>Name</th>
                             <th>Email</th>
                             <th>Mobile</th>
                             <th>Department</th>
                             <th>Designation</th>
-                            <th>Description</th>
+                            {/* <th>Description</th> */}
                             {/* <th>Duration</th> */}
                             <th>Date</th>
                             <th>Action</th>
